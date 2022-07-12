@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    align-items: center;
+    width: 196.4vh;
+    height: 100vh;
+    background-color: olive;
+}
+
+.works {
+    display: flex;
+    flex-direction: column;
+    width: 157.12vh;
+    height: 80vh;
+    margin: 0 auto;
+    border: 1px solid;
+}
+
+.works_text {
+    display: flex;
+    align-self: flex-start;
+    justify-content: center;
+    width: 100%;
+    height: 15%;
+    border: 1px solid;
+}
+
+.works_box {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 85%;
+    border: 1px solid;
+}
